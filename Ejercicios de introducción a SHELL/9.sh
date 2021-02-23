@@ -1,3 +1,6 @@
+#~~FRANCISCO JAVIER MARTINEZ PLAZA~~~#
+#~~DESARROLLO DE APLICACIONES WEB~~~~#
+
 #!/bin/bash
 
 read -p "Introduce el precio del producto: " precio

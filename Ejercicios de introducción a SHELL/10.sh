@@ -1,3 +1,6 @@
+#~~FRANCISCO JAVIER MARTINEZ PLAZA~~~#
+#~~DESARROLLO DE APLICACIONES WEB~~~~#
+
 #!/bin/bash
 read -p "Introduce un numerillo: " num1
 read -p "Introduce otro numerillo: " num2

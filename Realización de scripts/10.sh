@@ -2,7 +2,8 @@
 clear
 if [ $# -eq 1 ];then
     if [ -f $1 ];then
-    echo "El archivo existe"
+    echo "El archivo existe,"
+    read ""
     echo "El contenido de" $1 "es:"
     echo "----------------------------------------------------------------------------------------------------"
     cat $1
@@ -10,18 +11,10 @@ if [ $# -eq 1 ];then
     exit
     fi
 
-    elif [ $# -eq 2 ];then
-    if [ -f $1 ];then
-        cat $2 >> $1
+elif [ $# -eq 2 ];then
+        cat $1 >> $2
         echo "El contenido de" $1 "es:"
         echo "----------------------------------------------------------------------------------------------------"
         cat $1
         echo "----------------------------------------------------------------------------------------------------"
-    else
-        echo $1 "no existe"
-        exit
-    fi
-else
-    echo "Introduce uno o dos parametros"
-    exit
 fi

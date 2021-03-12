@@ -16,7 +16,7 @@ if [ $# -eq 1 ]
                     echo "-------------------------------------------"
                     echo "Opcion C: Copiar fichero a un directorio"
                     echo "Opcion B: Borrar el fichero"                      #del directorio donde esté ubicado
-                    echo "Opcion M: Mover el fichero a un directorio"        #que se pedirá por teclado
+                    echo "Opcion M: Mover el fichero a un directorio"       #que se pedirá por teclado
                     echo "Opcion V: Visualizará un fichero"                 #pasado por parámetro
                     echo "-------------------------------------------"
                     read opcion
@@ -60,7 +60,7 @@ if [ $# -eq 1 ]
                             echo "-------------------------------------------"
                             echo "Has elegido visualizar el fichero"
                             echo "La informacion de" $1 "es:"
-                            echo ls -l $1
+                            ls -l $1
                             echo "" #saltos de linea
                             echo "Su contenido es:"
                             cat $1
